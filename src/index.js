@@ -9,6 +9,7 @@ import App from './App';
 import HelloWorld from './components/HelloWorld';
 import HelloVisitor from './components/HelloVisitor';
 import FizzBuzz from './components/FizzBuzz';
+import Markdown from './components/Markdown';
 
 import registerServiceWorker from './registerServiceWorker';
 
@@ -20,6 +21,7 @@ const Root = () => {
                 <Route exact path="/hello-world" component={HelloWorld} />
                 <Route exact path="/hello-visitor" component={HelloVisitor} />
                 <Route exact path="/fizz-buzz" component={FizzBuzz} />
+                <Route exact path="/markdown" component={Markdown} />
             </div>
         </BrowserRouter>
     );
